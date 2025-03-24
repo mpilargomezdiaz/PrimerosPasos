@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <script src="ejer_14_01.js" defer></script>
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form id="contactForm">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required><br>
+
+        <label>Correo:</label>
+        <input type="email" id="email" required><br>
+
+        <label>Mensaje:</label>
+        <input type="text" id="mensaje" required><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Contactos Guardados</h3>
+    <ul id="listaContactos"></ul>
+
+    <button id="borrarTodo">Borrar Todos</button>
+
+    <h3>Borrar Contacto por Email</h3>
+    <input type="email" id="emailBorrar" placeholder="Ingrese email">
+    <button id="borrarUno">Borrar</button>
+</body>
+</html>

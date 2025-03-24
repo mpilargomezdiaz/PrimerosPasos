@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validaciones_en_equipo</title>
+    <script src="validaciones_en_equipo.js" defer></script>
+    <link rel="stylesheet" href="validaciones_en_equipo.css">
+</head>
+
+<body>
+
+
+
+    <form id="formulario">
+        <h3>Aplicación Banco</h3>
+        <div id="nombres">
+            <label for="">Nombre:</label>
+            <input type="text" required id="nombre" value=""> <input type="button" value="Validar"
+                onclick="validacionNombre();">
+            <span id="nomVal"></span>
+        </div>
+        <div>
+            <label for="">Apellidos:</label>
+            <input type="text" required id="apellidos" value=""> <input type="button" value="Validar"
+                onclick="validarApellidos();">
+            <span id="apeVal"></span>
+        </div>
+        <hr>
+        <div>
+            <label for="via">Tipo de vía </label>
+            <select name="via" id="via" required="required">
+                <option value="cl" selected>Calle</option>0
+                <option value="av">Avenida</option>
+                <option value="cm">Camino</option>
+                <option value="cr">Carretera</option>
+            </select>
+
+            <input type="text" id="Nombre_via" value="" placeholder="Dirección" required="required">
+            <input type="text" id="num" placeholder="Nº" maxlength="3" required="required">
+            <input type="text" id="poblacion" value="" placeholder="poblacion" required="required">
+            <input type="text" id="codigopostal" placeholder="código postal" maxlength="5" required="required">
+            <label for="pais">Pais </label>
+            <select name="pais" id="pais" required="required">
+                <option value="es" selected>España</option>
+                <option value="pt">Portugal</option>
+                <option value="fr">Francia</option>
+                <option value="an">Andorra</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+
+            <label for="user-email">Email: </label>
+            <input type="email" id="user-email" name="userEmail" /> <input type="button" value="Validar"
+                onclick="validateEmail();">
+            <span id="emVal"></span>
+        </div>
+        <div>
+            <label for="user-email2">Confirmar Email: </label>
+            <input type="email" id="user-email2" name="userEmail2" /> <input type="button" value="Validar"
+                onclick="validateEmail2();">
+            <span id="emVal2"></span>
+        </div>
+        <div>
+            <input type="button" value="Confirmar email" onclick="validateEmail21();">
+            <span id="emVal21"></span>
+        </div>
+
+
+        <hr>
+
+        <div>
+            <label for="DNI">DNI:</label>
+            <input type="text" required id="DNI" placeholder="Ej: 12345678A"> <input type="button" value="Validar"
+                onclick="validarDNI();">
+            <span id="resultadoDNI"></span>
+        </div>
+
+        <div>
+            <label for="Intereses">Intereses (mercado inmobiliario, bolsa o bienes estatales):</label>
+            <input type="text" id="Intereses" placeholder="separado por comas"> <input type="button" value="Validar"
+                onclick="validarIntereses();">
+
+            <span id="resultadoIntereses"></span>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" required id="password" placeholder="Contraseña"> <input type="button" value="Validar"
+                onclick="validarPassword();">
+            <span id="resultadoPassword"></span>
+        </div>
+        <hr>
+    </form>
+</body>
+
+</html>
+</body>
+</html>

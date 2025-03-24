@@ -1,0 +1,77 @@
+#formulario {
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px dotted black;
+    max-width: fit-content;
+    background-color: rgb(233, 212, 191);
+    box-shadow: 2px 2px 2px 1px #000;
+  }
+  span {
+    font-weight: bold;
+    font-size: 11px;
+  }
+  h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    font-style: italic;
+    background-color: #e6ad32;
+    color: antiquewhite;
+    border-radius: 10px;
+  }
+  /*Estilos body*/
+  body {
+    background: rgb(246, 226, 143);
+    background: linear-gradient(
+      90deg,
+      rgba(246, 226, 143, 1) 0%,
+      rgba(215, 236, 167, 1) 52%,
+      rgba(230, 173, 50, 1) 100%
+    );
+    font-family:sans-serif;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  hr{
+    background-color: #e6ad32;
+    height: 3px;
+  }
+  div {
+    padding: 10px;
+  }
+  
+  #num {
+    width: 40px;
+  }
+  
+  #codigopostal {
+    width: 80px;
+  }
+  
+  input {
+    background-color: rgb(255, 255, 255);
+    
+  }
+  /*Estilo para el logo */
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+  }
+  /*Estilo de los buttons*/
+  input[type="button"] {
+    background-color: #44c767;
+    cursor: pointer;
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    padding: 4px 10px ;
+  
+  }
+  
+  input[type="button"] {
+    background-color: #db9730;
+  }

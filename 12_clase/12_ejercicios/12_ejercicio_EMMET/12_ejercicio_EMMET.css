@@ -1,0 +1,43 @@
+/* El texto:
+El color del texto es azul: #00F.
+El color de fondo del texto es verde claro: #CFC.
+El tipo de letra: Georgia, Cambria, serif.
+El tamaño del texto: 16px. */
+
+/* p{c} */
+/* p{bc} */
+/* p{font-family} */
+/* p{font-size} */
+
+p{
+    color: #00f;
+    background-color: #CFC;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+/* El encabezado de nivel 1:
+El color del texto es rojo claro: #F00.
+El tipo de letra es la secuencia: Verdana, Calibri, sans-serif.
+El tamaño del texto: 32px. */
+
+/* h1{c}
+h1{font-family}
+h1{font-size} */
+
+h1{
+    color: #F00;
+    font-family:Verdana, sans-serif;
+    font-size: 32px;
+}
+
+/* El encabezado de nivel 2:
+El color del texto es rojo claro: #A00.
+El tipo de letra es la secuencia: Verdana, Calibri, sans-serif.
+El tamaño del texto: 24px. */
+
+h2{
+    color: #A00;
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+}

@@ -1,0 +1,31 @@
+//Solicita al usuario tres números enteros e indícale cuál es el menor.
+
+let n1 = prompt("Inserta un número");
+let n2 = prompt("Inserta un número");
+let n3 = prompt("Inserta un número");
+
+n1 = parseInt(n1);
+n2 = parseInt(n2);
+n3 = parseInt(n3);
+
+if(n1<n2&&n1<n3) {
+    alert(n1);
+}
+if(n2<n1&&n2<n3) {
+    alert(n2);
+}
+if(n3<n1&&n3<n2) {
+    alert(n3);
+}
+if(n1==n2&&n1==n3) {
+    alert(n1);
+}
+if(n1==n2&&n1<n3) {
+    alert(n1);
+}
+if(n1==n3&&n1<n2) {
+    alert(n1);
+}
+if(n2==n3&&n2<n1) {
+    alert(n2);
+}

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces de repositorios</title>
+    <style>
+        body {
+            margin-left: 2%;
+            margin-bottom: 5%;
+            max-width: 75%;
+        }
+
+        h3,
+        a {
+            padding: 1%;
+        }
+
+        span {
+            color: red;
+        }
+
+        p h3 {
+            margin-bottom: 0.5%;
+        }
+
+        strong span {
+            color: rgb(0, 0, 81);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Repositorios de ejercicios</h1>
+    <h3>Ejercicios en React</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ejercicios_react/tree/main">Clase 20_01</a>
+            <p>Realiza un proyecto React que replique el formulario, teniendo en cuenta que debes realizar el máximo
+                número de componentes posibles siempre que tenga sentido</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejercicios_react01">Clase 21_01</a>
+            <p>Simplifica el ejercicio del formulario usando props.</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejercicios_react02">Clase 22_03</a>
+            <p>
+            <h3>1. Formulario de Registro Simple:</h3>
+            <h4>Crea un componente funcional llamado RegistrationForm que:</h4>
+            <ul>
+                <li>
+                    Inicialice el estado para dos campos de entrada: "nombre de usuario" y "correo electrónico", ambos
+                    comenzando como cadenas vacías.
+                </li>
+                <li>
+                    Tenga un formulario con dos campos de entrada y un botón de envío.
+                </li>
+                <li>
+                    Actualice el estado correspondiente cada vez que el usuario escriba en uno de los campos de entrada.
+                </li>
+                <li>
+                    Muestre los valores actuales de "nombre de usuario" y "correo electrónico" debajo del formulario en
+                    tiempo real.
+                </li>
+            </ul>
+            <h4>Requisitos:</h4>
+            <ul>
+                <li>
+                    Utiliza el Hook useState para manejar el estado de los campos del formulario.
+                </li>
+                <li>
+                    Muestra los valores ingresados debajo del formulario en tiempo real a medida que el usuario escribe.
+                </li>
+            </ul>
+            <h3>2. Lista de Tareas (To-Do List)</h3>
+            <h4>Crea un componente funcional llamado TodoList que:</h4>
+            <ul>
+                <li>
+                    Inicialice el estado con un array vacío para almacenar las tareas.
+                </li>
+                <li>
+                    Tenga un campo de entrada y un botón para agregar nuevas tareas.
+                </li>
+                <li>
+                    Cuando el usuario escriba una tarea en el campo de entrada y haga clic en el botón "Agregar tarea",
+                    la tarea debe agregarse al array de tareas y mostrarse en una lista debajo del campo de entrada.
+                </li>
+            </ul>
+            <h4>Requisitos:</h4>
+            <ul>
+                <li>
+                    Utiliza el Hook useState para manejar el estado del array de tareas y del campo de entrada.
+                </li>
+                <li>
+                    Implementa la funcionalidad para agregar indicada.
+                </li>
+            </ul>
+            <h4>BONUS:</h4>
+            <ul>
+                <li>
+                    Implementa el elimiar tareas, por medio de un botón (si se pulsa el botón se elimina la última)
+                </li>
+                <li>
+                    Implementa el elimiar tareas de manera que el usuario pueda elegir la tarea que quiere eliminar.
+                </li>
+            </ul>
+        <li>
+            <a href="https://github.com/PGame7/ejercicios_react03">Clase 24_02</a>
+            <p>Crea una simulación de una tienda de la temática que quieras, simula algún funcionamiento del carrito y
+                usa react-router-dom para tener varias páginas a las que redirigir</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejer29_01">Clase 29_01</a>
+            <p>Routing con Node.js:
+            <ul>
+                <li>Crea rutas básicas para servir una página web clásica (Home| ¿Quiénes somos? | ¿Dónde Estamos? |
+                    ¿Qué hacemos? | Contacto... etc...)</li>
+                <li>Modifica el apartado anterior y crea código HTML para cada petición a la ruta (endpoint) en concreto
+                </li>
+                <li>Ahora modifica el apartado anterior y sirve en respuesta a la petición de cada ruta(endpoint) los
+                    ficheros HTML correspondientes: home.html, contact.html, about.html...</li>
+                <li>Realiza las modificaciones necesarias para que nuestro script se ejecute con npm start.</li>
+            </ul>
+            </p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejer29_02">Clase 29_02</a>
+            <p>Prueba la ejecución del ejemplo anterior construyendo un paquete npm y usando la opción start.</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejercicio29_03">Clase 29_03</a>
+            <p>
+            <ol>
+                <li>
+                    Realiza una aplicación que permita crear una BD en MongoDB pidiendo al usuario el nombre de la
+                    misma, el nombre de la primera colección y los datos del primer documento, obtén una captura de
+                    pantalla desde MongoDB
+                </li>
+                <li>
+                    Realiza una aplicación que permita insertar, borrar, actualizar o mostrar información en la
+                    colección de la BD del ejercicio anterior.
+                </li>
+            </ol> <br />
+            Ojo: Todos los ejercicios deben ejecutarse con npm start y realizarse solamente en dos páginas (el index y
+            la respuesta que se da desde node con express)
+            </p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejer31_2">Clase 31_02</a>
+            <p>
+            <h3>Ejercicio API REST</h3>
+            <p>
+                Crea una BD Mongo con los siguientes datos:
+            <ol>
+                <li>
+                    Nombre: APIREST
+                </li>
+                <li>
+                    Colección: Productos
+                </li>
+                <li>
+                    Datos dentro de la colección: id, precio, nombre, descripcion
+                </li>
+            </ol>
+            <br />
+            Haz un CRUD en node que permita crear, buscar productos por precio o nombre, actualizar productos y
+            borrar.
+            </p>
+            </p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ejer_react_sin_tiempo">Primer ejercicio con tiempo React</a>
+            <p>Consigue, usando React, que se muestren los li de posiciones pares o impares y que el h1 si se muestran
+                los li pares sea azul y si son los impares sea verde.</p>
+        </li>
+    </ul>
+    <ul>
+        <h4>Clase 39_01</h4>
+        <li>
+            <a href="https://github.com/PGame7/ej39_01.git">Clase 39_01 (1)</a>
+            <p>
+                Extracción de libros por categoría: Desarrolla un script que permita al usuario seleccionar una
+                categoría de libros y extraiga todos los libros de esa categoría. <br />
+                Para cada libro, obtén el título, precio, disponibilidad y calificación.
+            </p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ej39_01_02.git">Clase 39_01 (2)</a>
+            <p>
+                Búsqueda de libros por precio: Crea un programa que permita al usuario ingresar un rango de precios
+                (mínimo y máximo). <br />
+                El script debe buscar en todas las páginas del sitio y extraer los libros que se encuentren dentro de
+                ese rango de precios. <br />
+                Para cada libro encontrado, obtén el título, precio y URL de la imagen de portada. <br />
+                Muestra los resultados ordenados por precio de menor a mayor.
+            </p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ej39_01_03.git">Clase 39_01 (3)</a>
+            <p><span>(no resuelto)</span> Extrae información de todos los cursos que tiene Cas Training en su web.</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ej39_03.git">Clase 39_03</a>
+            <p>
+            <h4>Ejercicios MySQL: Consultas</h4>
+            <ol>
+                <li>
+                    Obtén una lista de todos los actores de Sakila, mostrando nombre y apellido, ordenados
+                    alfabéticamente
+                    por apellido.
+                </li>
+                <li>
+                    Muestra el título, el año de lanzamiento y la duración de las películas de Sakila, ordenadas por
+                    duración de manera descendente.
+                </li>
+                <li>
+                    Encuentra el número total de películas por categoría en Sakila.</li>
+                <li>Lista los clientes de Sakila junto con el número total de alquileres que han realizado.
+
+                </li>
+                <li>
+                    Muestra el nombre y la población de las 10 ciudades más pobladas de World.
+                </li>
+                <li>
+                    Encuentra los actores de Sakila que han aparecido en más de 20 películas, junto con el número de
+                    películas en las que han actuado.
+                </li>
+                <li>
+                    Lista los países de World y sus capitales, mostrando también el nombre del continente.
+                </li>
+                <li>
+                    Encuentra las películas de Sakila que tienen una duración superior al promedio.
+                </li>
+                <li>
+                    Muestra los clientes de Sakila que han gastado más de $100 en alquileres, junto con su gasto total.
+                </li>
+                <li>
+                    Para cada país en World, muestra el idioma más hablado (excluyendo el idioma oficial).
+                </li>
+                <li>
+                    Encuentra las categorías de películas en Sakila que tienen un promedio de duración de película
+                    superior
+                    a 120 minutos.
+                </li>
+            </ol>
+            </p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ej41_02.git">Clase 41_02</a>
+            <p>Crea una DTD y un XML que permita almacenar nuestros desayunos de la clase clase_12_2</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ej41_03.git">Clase 41_03</a>
+            <p>
+                Realiza los siguientes filtros en un script y llámalos para que se puedan ver los resultados por la
+                terminal:
+            <ol>
+                <li>
+                    Encontrar empleados del departamento de Ventas
+                </li>
+                <li>
+                    Encontrar empleados que no sean del departamento de IT
+                </li>
+                <li>
+                    Encontrar empleados con salario mayor a 55000
+                </li>
+                <li>
+                    Encontrar empleados con edad menor o igual a 35 años
+                </li>
+                <li>
+                    Encontrar empleados de los departamentos de Ventas o Marketing
+                </li>
+                <li>
+                    Encontrar empleados que no estén en IT ni en Finanzas
+                </li>
+                <li>
+                    Encontrar empleados que tengan el campo "experiencia"
+                </li>
+                <li>
+                    Encontrar empleados con edad entre 30 y 40 años (inclusive)
+                </li>
+                <li>
+                    Encontrar empleados del departamento de IT con salario mayor a 60000
+                </li>
+                <li>
+                    Encontrar empleados que no sean de Ventas y tengan habilidades de "programación" o "diseño gráfico
+                </li>
+            </ol>
+            </p>
+        </li>
+    </ul>
+    <h3>Ejercicios entregados</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/articulo">Artículo</a>
+            <p>Artículo de Nisekoi</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/webpersonal">Web personal</a>
+            <p>Web de Doremi</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/quiz_de_halloween">Quiz de Halloween (sin Halloween)</a>
+            <p>Se obtienen las preguntas y respuestas de una API. Los resultados aparecen con fecha y se recogen en una
+                gráfica</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/pokepag">Tienda pokemon</a>
+            <p>Tienda pokemon creada con React</p>
+        </li>
+    </ul>
+    <h3>Ejercicios con tiempo</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ejercicio_con_tiempo">Primer ejercicio con tiempo</a>
+            <p>Ejercicio de validación de correo electrónico y contraseña <span>(no resuelto)</span></p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejercicio_con_tiempo2">Ejercicio con tiempo 2</a>
+            <p>Ejercicio de emoticonos (pulsas un botón para que aparezca un emoticono obtenido de un JSON)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/react_ejtiempo_2911">Ejercicio con tiempo 3 (REACT)</a>
+            <p>Primer ejercicio con tiempo de React. Mostrar las líneas pares o las impares mediante el uso de un botón
+                <span>(no resuelto)</span><br /><strong><span>Puedes encontrarlo en repositorios de ejercicios (<a
+                            href="https://github.com/PGame7/ejer_react_sin_tiempo">Primer ejercicio con tiempo
+                            React</a>)</span></strong>
+            </p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/Ejercicio_0302.git">Pruebas TrainingPro</a>
+            <p>Monta el Back de TrainingPro en local y realiza lo siguiente:</p>
+            <ol>
+                <li>
+                    Un endpoint PATCH que actualice el nombre de un alumno, buscándolo por DNI. Debes aportar capturas
+                    de
+                    las pruebas en Postman.
+                </li>
+                <li>
+                    Un endpoint POST para insertar un profesor. Debes aportar capturas de las pruebas en Postman.
+                </li>
+                <ol>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ejtiempo_2102.git">Ejercicio con tiempo 4 (Node)</a>
+            <p>
+                Realiza una aplicación node.js que usando https://books.toscrape.com/ extraiga la información de al
+                menos 5 libros y los pase a MongoDB.
+            </p>
+        </li>
+    </ul>
+    <h3>Ejercicios en equipo</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/ejercicio_equipo_1">Varios ejercicios</a>
+            <p>Comprobación de números (par y/o múltiplo de 25), comprobación de si una palabra empieza o termina por la
+                letra "a", contador de palabras, creación de una tabla desde js</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejercicio_equipo_2">Formulario</a>
+            <p>Validación de campos de un formulario</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ejer_en_equipo_26_11">Ejercicio Task</a>
+            <p>Añadir, borrar y actualizar tasks en Firebase</p>
+            <a href="https://github.com/PGame7/form_equipo">Task visual</a>
+            <p>Crear el mismo formulario en React (sin funcionalidad)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/equipo1612_client">Ejercicio MongoDB (client)</a>
+            <p>Taller mecánico con mecánicos y encargados (client)</p>
+            <a href="https://github.com/PGame7/equipo1612_server">Ejercicio MongoDB (server)</a>
+            <p>Taller mecánico con mecánicos y encargados (server)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/FrontendTP.git">TrainingPro (client)</a>
+            <p>TrainingPro (front)</p>
+            <a href="https://github.com/PGame7/BackendTP.git">TrainingPro (server)</a>
+            <p>TrainingPro (back)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/Frontend_AdminTP.git">TrainingPro Admin (client)</a>
+            <p>TrainingPro admin (front) RAMA KAN-126</p>
+            <a href="https://github.com/PGame7/Backend_AdminTP.git">TrainingPro Admin (server)</a>
+            <p>TrainingPro admin (back)</p>
+        </li>
+    </ul>
+    <h3>Exámenes</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/examen25_11">Examen de la primera evaluación</a>
+            <p>Obtener los productos de una API y poder añadirlos al carrito</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/examen14_02.git">Examen de la segunda evaluación</a>
+            <p>
+            <ol>
+                <li>
+                    (2 puntos) Crea dos bases de datos, con las siguientes características:
+                    <br />
+                    <br />
+                    <ul>
+                        <li>
+                            Relacional:
+                            <br />
+                            Disponemos de clientes, de los que se guarda el dni, nombre, apellidos y número de tarjeta.
+                            <br />
+                            También tenemos productos, de los que tenemos código de barras, nombre y precio. <br />
+                            Los clientes compran productos y la empresa para la que va a servir la BD es un
+                            supermercado.
+                        </li>
+                        <br />
+                        <li>
+                            No Relacional:
+                            <br />
+                            Usuarios (email) y contraseña.
+                        </li>
+                        <br />
+                    </ul>
+                </li>
+                <li>
+                    (3 puntos)
+                    Crea los modelos en Sequelize y Mongoose
+                </li>
+                <br />
+                <li>
+                    (5 puntos)
+                    Crea un servidor que permita insertar por medio de peticiones HTTP en las tres tablas.
+                </li>
+            </ol>
+            </p>
+        </li>
+    </ul>
+    <h3>Ejemplos clase</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/visualrepos_01">Clase 23_01</a>
+            <p>Contador, useEffect (nombre, edad y API)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/visualrepos">Clase 27_03</a>
+            <p>PokeAPI (Custom hooks)</p>
+        </li>
+    </ul>
+    <h3>Otros</h3>
+    <ul>
+        <li>
+            <a href="https://github.com/PGame7/pruebaSeleniumR.git">Selenium (React)</a>
+            <p>Ejercicio utilizando Selenium (Front)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/pruebaSeleniumS.git">Selenium (Node)</a>
+            <p>Ejercicio utilizando Selenium (Server)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/Chat_React.git">Chat (React)</a>
+            <p>Socket.io (Front)</p>
+        </li>
+        <li>
+            <a href="https://github.com/PGame7/ProbChat.git">Chat (Node)</a>
+            <p>Socket.io (Server)</p>
+        </li>
+    </ul>
+</body>
+
+</html>

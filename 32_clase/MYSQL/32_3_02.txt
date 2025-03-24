@@ -1,0 +1,54 @@
+#DROP DATABASE IF EXISTS Transport_company;
+
+CREATE DATABASE Transport_company;
+
+USE Transport_company;
+
+CREATE TABLE cities(
+    id_city INT AUTO_INCREMENT,
+    city_pc VARCHAR(5) UNIQUE NOT NULL,
+    city_name VARCHAR(100) NOT NULL,
+    PRIMARY KEY(id_city)
+);
+
+CREATE TABLE packages(
+id_package INT AUTO_INCREMENT,
+package_code VARCHAR(100) NOT NULL,
+package_description VARCHAR(500) NOT NULL,
+package_consignee VARCHAR(300) NOT NULL,
+package_consignee_adress VARCHAR(200) NOT NULL,
+PRIMARY KEY(id_package),
+fk_id_city INT NOT NULL,
+FOREIGN KEY(fk_id_city) REFERENCES cities(id_city)
+);
+
+CREATE TABLE drivers(
+id_driver INT AUTO_INCREMENT,
+driver_dni VARCHAR(9) UNIQUE NOT NULL,
+driver_name VARCHAR(100) NOT NULL,
+driver_mobile VARCHAR(12) UNIQUE NOT NULL,
+driver_address VARCHAR(200) NOT NULL,
+driver_salary VARCHAR(10) NOT NULL,
+driver_town VARCHAR(100) NOT NULL,
+PRIMARY KEY(id_driver),
+fk_id_package INT NOT NULL,
+FOREIGN KEY(fk_id_package) REFERENCES packages(id_package)
+);
+
+CREATE TABLE trucks(
+    id_truck INT AUTO_INCREMENT,
+    truck_numberplate VARCHAR(7) UNIQUE NOT NULL,
+    truck_model VARCHAR(100) NOT NULL,
+    truck_type VARCHAR(100) NOT NULL,
+    truck_power VARCHAR(10) NOT NULL,
+    PRIMARY KEY(id_truck)
+);
+
+CREATE TABLE deliveries(
+id_delivery INT NOT NULL,
+fk_id_driver INT NOT NULL,
+fk_id_truck INT NOT NULL,
+FOREIGN KEY(fk_id_driver) REFERENCES drivers(id_driver),
+FOREIGN KEY(fk_id_truck) REFERENCES trucks(id_truck),
+PRIMARY KEY(id_delivery)
+);

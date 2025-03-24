@@ -1,0 +1,3 @@
+Realiza una página en HTML, que disponga de dos botones, uno de ellos tendrá el texto "Añadir" y al pulsarlo insertará una fruta nueva 
+en el array de frutas de nuestro ejemplo y le mostratá el array al usuario; el otro tendrá el texto "Borrar" y 
+eliminará la última fruta del array.

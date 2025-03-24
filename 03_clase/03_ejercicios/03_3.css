@@ -1,0 +1,17 @@
+h1{color: teal;}
+h2{color: blue;}
+p strong{color: red;}
+.destacado{color: orange;}
+p  a { color: red; }
+p a em{color:blue;}
+.especial{color:purple;}
+#especial{color:fuchsia;}
+th + td{color: green;}
+td{color:green;}
+strong{color:orange;}
+th{color:red;}
+tr th{color:red;}
+th.especial{color:orange;}
+caption{color:blue;}
+#adicional a{color:green;}
+#adicional{color:olive;}
