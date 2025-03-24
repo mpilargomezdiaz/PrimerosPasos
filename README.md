@@ -6,6 +6,8 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 
 ## Ejercicios
 
+## Clase 1
+
 # Modificaciones en el Ejercicio de HTML
 
 ![EjercicioHTML](./images/01_1.png)
@@ -168,3 +170,13 @@ El resultado final debe ser:
 ![EjercicioTabla](./images/01_3.png)
 
 - [Ejercicio_01_3](./01_clase/01_ejercicios/01_3_tabla.html)
+
+## Clase 2
+
+# Formulario
+
+Desarrolla un HTML co un formulario con el siguiente aspecto:
+
+![EjercicioFormulario](./images/formulario.png)
+
+- [Ejercicio_02_1](./02_clase/02_ejercicios/02_1_formulario.html)
