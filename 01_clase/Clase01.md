@@ -13,6 +13,7 @@ Realiza las siguientes modificaciones:
   - Un encabezado de nivel 2 con el texto "Historia de HTML" antes de "Los inicios del lenguaje HTML...".
   - Un encabezado de nivel 2 con el texto "Versiones de HTML" antes de dos nuevos párrafos que contienen el texto "Tim Berners-Lee definió la primera versión de HTML en el año 1991" y "En la actualidad, la última versión de HTML es HTML5".
 
+**Ejercicio resuelto**
 - [Ejercicio_01_1](./01_ejercicios/01_1.html)
 
 # Listas
@@ -21,6 +22,7 @@ Usando listas, crea una página, cuyo resultado final sea el siguiente:
 
 ![EjercicioListas](../images/01_2.png)
 
+**Ejercicio resuelto**
 - [Ejercicio_01_2](./01_ejercicios/01_2_lista.html)
 
 # Tablas
@@ -161,4 +163,5 @@ El resultado final debe ser:
 
 ![EjercicioTabla](../images/01_3.png)
 
+**Ejercicio resuelto**
 - [Ejercicio_01_3](./01_ejercicios/01_3_tabla.html)

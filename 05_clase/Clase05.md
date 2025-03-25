@@ -23,5 +23,6 @@ Dentro del mismo archivo de JavaScript y con un único HTML crea:
    ****
    *****
    ```
-
+   
+**Ejercicio resuelto**
 - [Ejercicio_05_1](./05_ejercicios/05_1.html)

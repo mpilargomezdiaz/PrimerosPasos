@@ -29,3 +29,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 7
 
 - [Clase_07](./07_clase/Clase07.md)
+
+## Clase 10
+
+- [Clase_10](./10_clase/Clase10.md)

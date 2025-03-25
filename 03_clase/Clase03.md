@@ -103,6 +103,8 @@ Estando en E acceder a F usando ruta absoluta
     </html>
 
 ```
+
+**Ejercicio resuelto**
 - [Ejercicio_03_2](./03_ejercicios/03_2_selectores.html)
 
 # Selectores 2
@@ -190,4 +192,5 @@ Debemos obtener un aspecto como el de la siguiente imagen:
 
 ![EjercicioSelectores](../images/clase03_selectores.png)
 
+**Ejercicio resuelto**
 - [Clase_03_3](./03_ejercicios/03_3_selectorespt2.html)
