@@ -25,3 +25,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 5
 
 - [Clase_05](./05_clase/Clase05.md)
+
+## Clase 7
+
+- [Clase_07](./07_clase/Clase07.md)
