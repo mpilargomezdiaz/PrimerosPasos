@@ -8,47 +8,47 @@ La mejor manera de ver esto es con ejercicios. Partiendo del diagrama de directo
 
 Estando en B acceder a b.txt usando ruta relativa
 
-<span style="color: blue;">Respuesta:</span> ./C/b.txt
+./C/b.txt
 
 Estando en C acceder a F usando ruta absoluta
 
-<span style="color: blue;">Respuesta:</span> /A/D/E/F
+/A/D/E/F
 
 Estando en F acceder a A usando ruta relativa
 
-<span style="color: blue;">Respuesta:</span> ../../..
+../../..
 
 Estando en D acceder a c.txt usando ruta absoluta
 
-<span style="color: blue;">Respuesta:</span> /A/B/C/c.txt
+/A/B/C/c.txt
 
 Estando en C acceder a a.txt usando ruta abosulta
 
-<span style="color: blue;">Respuesta:</span> /A/D/E/F/a.txt
+/A/D/E/F/a.txt
 
 Estando en C acceder a a.txt usando ruta relativa
 
-<span style="color: blue;">Respuesta:</span> ../../D/E/F/a.txt
+../../D/E/F/a.txt
 
 Estando en E acceder a E usando ruta absoluta
 
-<span style="color: blue;">Respuesta:</span> /A/D/E
+/A/D/E
 
 Estando en E acceder a E usando ruta relativa
 
-<span style="color: blue;">Respuesta:</span> ./
+./
 
 Estando en E acceder a D usando ruta relativa
 
-<span style="color: blue;">Respuesta:</span> ../
+../
 
 Estando en E acceder a F usando ruta relativa
 
-<span style="color: blue;">Respuesta:</span> ./F
+./F
 
 Estando en E acceder a F usando ruta absoluta
 
-<span style="color: blue;">Respuesta:</span> /A/D/E/F
+/A/D/E/F
 
 # Selectores
 
