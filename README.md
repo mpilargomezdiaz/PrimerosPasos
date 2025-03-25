@@ -6,30 +6,30 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 
 ## Ejercicios
 
-## Clase 1
+## Clase 1. Modificaciones HTML, Listas y Tablas
 
 - [Clase_01](./01_clase/Clase01.md)
 
-## Clase 2
+## Clase 2. Formulario
 
 - [Clase_02](./02_clase/Clase02.md)
 
-## Clase 3
+## Clase 3. Rutas y Selectores
 
 - [Clase_03](./03_clase/Clase03.md)
 
-## Clase 4
+## Clase 4. JavaScript: Botones, Manipulación de Arrays y Condicionales
 
 - [Clase_04](./04_clase/Clase04.md)
 
-## Clase 5
+## Clase 5. Funciones dentro de un único HTML
 
 - [Clase_05](./05_clase/Clase05.md)
 
-## Clase 7
+## Clase 7. Acceso y Manipulación del DOM: Enlaces y Visibilidad de Contenido
 
 - [Clase_07](./07_clase/Clase07.md)
 
-## Clase 10
+## Clase 10. JavaScript: Árboles Binarios, Manejo de Eventos y Dinamismo con DOM
 
 - [Clase_10](./10_clase/Clase10.md)
