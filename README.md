@@ -13,3 +13,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 2
 
 - [Clase_02](./02_clase/Clase02.md)
+
+## Clase 3
+
+- [Clase_03](./03_clase/Clase03.md)
