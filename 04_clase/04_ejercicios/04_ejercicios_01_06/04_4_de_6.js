@@ -9,9 +9,14 @@ if (usuario == u && contraseña == c) {
 } else {
     alert("datos incorrectos");
     do {
-        usuario = prompt("Inserta un usuario") + contador;
-        contraseña = prompt("Inserta una contraseña") + contador;
+        usuario = prompt("Inserta un usuario");
+        contraseña = prompt("Inserta una contraseña");
         contador++;
-    } while (usuario == u && contraseña == c && contador < 2);
+    } while (usuario != u || contraseña != c && contador < 2);
 }
-alert("datos correctos");
+
+if (usuario == u && contraseña == c) {
+    alert("datos correctos");
+} else {
+    alert("Has agotado los intentos.");
+}
