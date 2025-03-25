@@ -1,2 +1,0 @@
-Realiza una página en HTML, que disponga de dos botones, uno de ellos tendrá el texto "Saludar" y al pulsarlo nos indicará "Hola!!"; 
-el segundo tendrá el texto "Despedir", al pulsarlo nos dirá "Adiós!!". Para dar funcionalidad a los botones debes usar JavaScript.

@@ -1,8 +1,3 @@
-/* 
-Almacena en dos variables datos de validación (usuario y contraseña) correctos 
-y permite que el usuario valide (dispone de 3 intentos).
-*/
-
 let u = "rainy";
 let c = "days";
 let contador = 0;

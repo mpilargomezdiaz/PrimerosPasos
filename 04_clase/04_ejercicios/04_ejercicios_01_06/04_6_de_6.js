@@ -1,5 +1,3 @@
-//Ordena alfabéticamente un array con 7 palabras puedes usar el algoritmo de la burbuja.
-
 let brujitas = ["doremi", "hazuki", "aiko", "poppu", "onpu", "momoko", "hana"];
 let aux;
 

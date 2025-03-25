@@ -1,5 +1,3 @@
-// Suma o resta (según elija el usuario) dos números reales
-
 let n1 = prompt("Inserta un número");
 let n2 = prompt("Inserta un número");
 n1 = parseFloat(n1);

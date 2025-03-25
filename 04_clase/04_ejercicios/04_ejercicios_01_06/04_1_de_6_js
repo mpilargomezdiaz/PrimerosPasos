@@ -1,5 +1,3 @@
-//Solicita al usuario tres números enteros e indícale cuál es el menor.
-
 let n1 = prompt("Inserta un número");
 let n2 = prompt("Inserta un número");
 let n3 = prompt("Inserta un número");
