@@ -15,13 +15,14 @@ Dentro del mismo archivo de JavaScript y con un único HTML crea:
    ```
 
    - Una función que permita mostrar un triángulo como el siguiente:
-   
+
    ```
    *
    **
    ***
    ****
    *****
-   ```**
+   
+   ```
 
 - [Ejercicio_05_1](./05_ejercicios/05_1.html)
