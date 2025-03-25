@@ -1,13 +1,9 @@
-// Una función que devuelva el número de cifras de un entero solicitado al usuario.
 function contadorEntero() {
     let numero = prompt("Inserta un número entero");
-    alert(numero.replace("-", "").length); // Elimina el signo negativo antes de contar
+    alert(numero.replace("-", "").length);
 }
 
-/*
-Una función que muestre al usuario una secuencia de _ (se debe construir la cadena de uno en uno), 
-la cantidad de _ será solicitada al usuario.
-*/
+
 function secuencia() {
     let veces = prompt("Inserte un número");
     veces = parseInt(veces);
@@ -19,10 +15,7 @@ function secuencia() {
     alert(secuencia);
 }
 
-/* 
-Una función que permita mostrar la secuencia (se debe construir la cadena de uno en uno):
-*+_*+_*+_*+_
-*/
+
 function secuenciaSimbolos() {
     let secuencia = " ";
     let numero = prompt("Inserte un número");
@@ -42,14 +35,7 @@ function secuenciaSimbolos() {
     alert(secuencia);
 }
 
-/*
-Una función que permita mostrar un triángulo como el siguiente:
- *
- **
- ***
- ****
- *****
-*/
+
 function triangulo() {
     let secuencia = "";
     let asterisco = "*";
