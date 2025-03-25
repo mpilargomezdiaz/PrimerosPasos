@@ -56,7 +56,7 @@ Se solicita:
 - Número de enlaces del tercer párrafo
 
 
-
+**Ejercicio resuelto**
 - [Ejercicio_07_1](./07_ejercicios/07_1.html)
 
 # Manipulación del DOM: Mostrar y ocultar contenido dinámicamente
@@ -107,5 +107,7 @@ Una vez acabada esta parte, realizar lo siguiente:
 
 - Crear un nuevo evento en el enlace2 que llamará a la función oculta().
 - Dicha función ocultará el enlace2, el texto el span y volverá a mostrar el enlace Seguir leyendo.
+
+**Ejercicio resuelto**
 
 - [Ejercicio_07_2](./07_ejercicios/07_2.html)
