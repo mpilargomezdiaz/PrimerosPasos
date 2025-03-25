@@ -77,9 +77,9 @@ if (importe - pago[0][pago[0].length - 1] == 0) { //Importe justo
     alert("Importe justo");
 } else {
     //Si el pago es mayor que la caja
-    if (pago[0][pago[0].length - 1] - importe > caja[0][caja[0].length - 1]) {//no hay cash
+    if (pago[0][pago[0].length - 1] - importe > caja[0][caja[0].length - 1]) {//no hay dinero
         alert("No hay cambio disponible");
-    } else { // no paga suficiente cash
+    } else { // no paga suficiente dinero
         if (pago[0][pago[0].length - 1] < importe) {
             alert("falta cash");
         } else {

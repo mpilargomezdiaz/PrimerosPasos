@@ -33,3 +33,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 10. JavaScript: Árboles Binarios, Manejo de Eventos y Dinamismo con DOM
 
 - [Clase_10](./10_clase/Clase10.md)
+
+## Clase 11. Ejercicio del cambio
+
+- [Clase_11](./11_clase/Clase11.md)
