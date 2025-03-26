@@ -41,3 +41,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 12. EMMET, JSON, Boolean, String y Array
 
 - [Clase_12](./12_clase/Clase12.md)
+
+## Clase 14. Local Storage
+
+- [Clase_14](./14_clase/Clase14.md)
