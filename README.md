@@ -37,3 +37,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 11. Ejercicio del cambio
 
 - [Clase_11](./11_clase/Clase11.md)
+
+## Clase 12. EMMET, JSON, Boolean, String y Array
+
+- [Clase_12](./12_clase/Clase12.md)

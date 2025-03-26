@@ -1,6 +1,3 @@
-/* A partir de la siguiente información, diseña y elabora un JSON que la contenga y permita acceder de manera 
-lo más sencilla posible, a precio y calorías de cada desayuno. */
-
 let tabla = {
     "Gofres Belgas": {
     "Precio (en euros)": "5.95",

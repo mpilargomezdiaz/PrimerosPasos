@@ -1,5 +1,3 @@
-// En el JSON del último ejemplo indica el código de acceso al email de The Bridge de Isabel.
-
 let objeto = [
     {
         "nombre": "Francisco Ramirez",

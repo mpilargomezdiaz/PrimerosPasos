@@ -1,5 +1,3 @@
-// Partiendo del siguiente JSON:
-
 let objeto = {
     "localidade 1": {
     "Continente": "África",
@@ -45,11 +43,10 @@ let objeto = {
 
 
 // Código para obtener el país de la localidade 8
+
 console.log(objeto["localidade 8"]["País"]);
 
 // Código que permite añadir una localidad a tu elección
-
-
 
 objeto["localidade 9"] = {
     "Continente": "Europa",
