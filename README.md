@@ -45,3 +45,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 14. Local Storage
 
 - [Clase_14](./14_clase/Clase14.md)
+
+## Clase 32. Modelo entidad-relación y MySQL
+
+- [Clase_32](./32_clase/Clase32.md)
