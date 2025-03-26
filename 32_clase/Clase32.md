@@ -7,6 +7,8 @@ A partir del siguiente enunciado diseñar el modelo entidad-relación.
 
 
 **Ejercicio resuelto**
+
+
 ![Ejercicio_Instituto_dia](../images/dia/Instituto.jpeg)
 
 - [Ejercicio_Instituto](./MYSQL/Ej_clase_32_03/Instituto.sql)
@@ -21,6 +23,8 @@ empleada por una empresa dedicada a la venta de automóviles, teniendo en cuenta
 - El concesionario también se encarga de llevar a cabo las revisiones que se realizan a cada coche. Cada revisión tiene asociado un código que se incrementa automáticamente por cada revisión que se haga. De cada revisión se desea saber si se ha hecho cambio de filtro, si se ha hecho cambio de aceite, si se ha hecho cambio de frenos u otros. Los coches pueden pasar varias revisiones en el concesionario”.
 
 **Ejercicio resuelto**
+
+
 ![Ejercicio_Automobile_dia](../images/dia/Automobile.jpeg)
 
 - [Ejercicio_Automobile](./MYSQL/Ej_clase_32_03/Automobile.sql)
