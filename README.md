@@ -49,3 +49,7 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 ## Clase 32. Modelo entidad-relación y MySQL
 
 - [Clase_32](./32_clase/Clase32.md)
+
+## Clase 34. Gestión de Clientes, Albaranes y Operaciones Matemáticas en una Base de Datos con Triggers y Procedimientos Almacenados
+
+- [Clase_34](./34_clase/Clase34.md)
