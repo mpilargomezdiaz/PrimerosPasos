@@ -2,9 +2,11 @@
 
 Este repositorio contiene los primeros ejercicios que realicé durante el curso IFCD0210. Comencé sin ningún conocimiento previo en este campo, y cada paso que he dado ha sido un motivo de orgullo. Han pasado sólo unos meses, pero al mirar estos primeros ejercicios, puedo ver lo mucho que he aprendido y crecido. Es bonito mirar atrás y darse cuenta de ello. Así que, aunque en su mayoría se traten de ejercicios básicos, creo que merecen su lugar en mi GitHub, como una muestra del camino que estoy recorriendo y por el cual quiero seguir avanzando y mejorando día a día.
 
-## Ejercicios
 
 ------------------------------------------------------------------------------------------------
+
+## Ejercicios
+
 
 ## Clase 1. Modificaciones HTML, Listas y Tablas
 
