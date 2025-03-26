@@ -5,7 +5,7 @@ Este repositorio contiene los primeros ejercicios que realicé durante el curso 
 
 ------------------------------------------------------------------------------------------------
 
-## Ejercicios
+## :star2: Ejercicios :star2:
 
 
 ## Clase 1. Modificaciones HTML, Listas y Tablas
@@ -57,3 +57,9 @@ Este repositorio contiene los primeros ejercicios que realicé durante el curso 
 - [Clase_34](./34_clase/Clase34.md)
 
 ------------------------------------------------------------------------------------------------
+
+## :star2: Mis repositorios :star2:
+
+:sun_with_face: Para explorar el resto de repositorios, [haz clic aquí](repositorios.md) para ver la lista completa.
+
+
