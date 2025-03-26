@@ -50,6 +50,6 @@ Han pasado apenas unos meses y mirando estos inicios me doy cuenta de lo mucho q
 
 - [Clase_32](./32_clase/Clase32.md)
 
-## Clase 34. Gestión de Clientes, Albaranes y Operaciones Matemáticas en una Base de Datos con Triggers y Procedimientos Almacenados
+## Clase 34. Gestión de Clientes y Operaciones con Triggers
 
 - [Clase_34](./34_clase/Clase34.md)

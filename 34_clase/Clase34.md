@@ -1,6 +1,6 @@
 ## Clase 34
 
-# Gestión de Clientes, Albaranes y Operaciones Matemáticas en una Base de Datos con Triggers y Procedimientos Almacenados
+# Gestión de Clientes y Operaciones con Triggers
 
 
 1. Crea los triggers necesarios y las tablas necesarias para resolver lo siguiente: 
