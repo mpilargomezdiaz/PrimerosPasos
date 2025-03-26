@@ -29,8 +29,7 @@
 |-----------|-------------|
 | [MySQL_Consultas](https://github.com/mpilargomezdiaz/MySQL_Consultas.git) | **Consultas en MySQL** |
 
-### ![XML](https://img.shields.io/badge/XML-%232E4B7F.svg?style=for-the-badge&logo=xml&logoColor=white)
-### ![DTD](https://img.shields.io/badge/DTD-%23E54B37.svg?style=for-the-badge&logo=xml&logoColor=white)
+### ![XML](https://img.shields.io/badge/XML-%232E4B7F.svg?style=for-the-badge&logo=xml&logoColor=white) ![DTD](https://img.shields.io/badge/DTD-%23E54B37.svg?style=for-the-badge&logo=xml&logoColor=white)
 
 | Ejercicio | Descripción |
 |-----------|-------------|
