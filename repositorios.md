@@ -1,13 +1,13 @@
 ## :star2: Enlaces de repositorios :star2:
 
-## Repositorios de ejercicios
-
-## :star2: Enlaces de repositorios :star2:
+### Repositorios de ejercicios
 
 - [![Exámenes](https://img.shields.io/badge/Exámenes-%23FFD700.svg?style=for-the-badge&logo=bookstack&logoColor=black)](examenes.md)
 - [![Ejercicios Entregados](https://img.shields.io/badge/Ejercicios%20Entregados-%2300C853.svg?style=for-the-badge&logo=checkmarx&logoColor=white)](entregas.md)
 
 ---
+
+### Tecnologías y Frameworks
 
 ### ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 
