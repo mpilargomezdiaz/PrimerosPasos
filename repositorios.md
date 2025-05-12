@@ -4,6 +4,10 @@
 
 ## :star2: Enlaces de repositorios :star2:
 
+- [📘 Exámenes](examenes.md) ![Exámenes](https://img.shields.io/badge/Exámenes-%23FFD700.svg?style=for-the-badge&logo=bookstack&logoColor=black)
+- [✅ Ejercicios Entregados](entregas.md) ![Ejercicios Entregados](https://img.shields.io/badge/Ejercicios%20Entregados-%2300C853.svg?style=for-the-badge&logo=checkmarx&logoColor=white)
+
+
 ### ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 
 | Ejercicio | Descripción |
@@ -40,3 +44,10 @@
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [MongoDB_Filtros](https://github.com/mpilargomezdiaz/MongoDB_Filtros.git) | **Uso de filtros en MongoDB** |
+
+### ![Socket.IO](https://img.shields.io/badge/Socket.IO-%23010101.svg?style=for-the-badge&logo=socket.io&logoColor=white)
+
+| Ejercicio | Descripción |
+|-----------|-------------|
+| [Sockets_Chat_Front](https://github.com/mpilargomezdiaz/Sockets_Chat_Front.git) | **Realtime Chat utilizando socket.io (Front)** |
+| [Sockets_Chat_Server](https://github.com/mpilargomezdiaz/Sockets_Chat_Server.git) | **Realtime Chat utilizando socket.io (Back)** |
