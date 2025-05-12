@@ -3,8 +3,10 @@
 ### Repositorios de ejercicios
 
 
-- [![Exámenes](https://img.shields.io/badge/Exámenes-%23FFD700.svg?style=for-the-badge&logo=bookstack&logoColor=black)](examenes.md)
+- [![Contrarreloj](https://img.shields.io/badge/Contrarreloj-%23FF5252.svg?style=for-the-badge&logo=clockify&logoColor=white)](contrarreloj.md)
 - [![Ejercicios Entregados](https://img.shields.io/badge/Ejercicios%20Entregados-%2300C853.svg?style=for-the-badge&logo=checkmarx&logoColor=white)](entregas.md)
+- [![Exámenes](https://img.shields.io/badge/Exámenes-%23FFD700.svg?style=for-the-badge&logo=bookstack&logoColor=black)](examenes.md)
+
 
 ---
 
